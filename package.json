@@ -1,0 +1,15 @@
+{
+  "name": "dummyCI",
+  "version": "1.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/_mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "nyc": "^11.4.0"
+  }
+}
