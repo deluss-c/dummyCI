@@ -1,6 +1,5 @@
 const add = (a, b) => {
-	console.log('toto');
-	return a + b;
+	return a + b + 123;
 };
 
 const sub = (a, b) => {
